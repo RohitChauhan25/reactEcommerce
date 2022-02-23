@@ -95,7 +95,7 @@ export default function Cart() {
                                             <tr>
                                                 <td class="align-middle"><img src={prod.image} alt="" style={{ width: "50px" }} />{prod.title}</td>
                                                 <td class="align-middle">{prod.price}</td>
-                                                <td class="align-middle">
+                                                <td class="align-middle">hello 
                                                      <div class="input-group quantity mx-auto" style={{ width: "100px" }}>
                                                         <div class="input-group-btn">
                                                             <button class="btn btn-sm btn-primary btn-minus" onClick={() => handleDecrement(index)} >
